@@ -1,0 +1,120 @@
+body{
+    margin: 0;
+    background-image: url(../img/bg-2.png);
+    padding: 20px 60px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    padding-top: 30px;
+}
+main{
+    margin-top: 40px;
+}
+.encabezado{
+    background-color: orangered;
+}
+.logo{
+    position: absolute;
+    margin-top: 24px;
+    left: 30px;
+    top: 40px
+}
+.main-nav{
+    margin-top: 40px;
+    padding-left: 40px;
+    height: 60px;
+    display: table;/*para centrar verticalmente el texto*/
+}
+.main-nav li{
+    display: table-cell;/*para centrar verticalmente el texto*/
+    margin-left: 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+.main-nav a{
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+.main-nav-form{
+    position: absolute;
+    top:48px;
+    right: 60px;
+}
+article{
+    position: relative;
+    width: 31%;
+    float: left;
+    margin: 1%;
+    box-sizing: border-box;
+}
+.main-photo{
+    width: 100%;
+}
+.flag{
+    position: absolute;
+    top: 1px;
+    display: block;
+    right: 2px;
+}
+.name{
+    width: 100%;
+    position: absolute;
+    top:40%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.3);
+    display: block;
+    text-align: center;
+    color: white;
+    padding: 10px 0;
+}
+.more{
+    position: absolute;
+    top:80%;
+    transform: translateY(-50%);
+    background-color:orangered;
+    display: block;
+    text-align: center;
+    color: white;
+    padding: 10px 10px;
+    text-decoration: none;
+    right: 38%;
+}
+/* Login */
+.login{
+    width: 30%;
+    margin: 0 auto;
+}
+.login__tit{
+    width: 100%;
+    text-align: center;
+}
+.login__campos{
+    width: 100%;
+}
+.login__recordarme{
+    text-align: right;
+}
+.login__msjError{
+    color: red;
+}
+.login__button{
+    background-color: rgba(29, 21, 136, 0.3);
+    color: white;
+    width: 40%;
+    border: none;
+    padding: 5px;
+    border-radius: 8%;
+    font-size: 15px;
+}
+/* Registro */
+.registro__obligatorio{
+    color: red;
+    margin-top: 2px;
+    padding-top: 0;
+    font-size: small;
+}
+.registro__etiq--enf{
+    font-weight: bold;
+    font-size: 16px;
+}

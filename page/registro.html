@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Registro</title>
+</head>
+<body>
+    <div class="container">
+        <!-- Contenedor ppal -->
+        <header class="encabezado">
+            <!-- Encabezado -->
+            <img class="logo" src="../img/logo.png" alt="logo craftsy">
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="../index.html">Smartphones</a></li>
+                    <li><a href="../index.html">Tablets</a></li>
+                    <li><a href="../index.html">Computadoras</a></li>
+                </ul>
+            </nav>
+            <nav class="main-nav main-nav-form">
+                <ul>
+                    <li><a href="./login.html">LOGIN</a></li>
+                    <li><a href="./registro.html">REGISTRO</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <!-- Cuerpo principal del sitio -->
+            <section class="login">
+                <h1 class="login__tit">REGISTRATE</h1>
+                <br>
+                <div>
+                    <label>Nombre</label> <br>
+                    <input class="login__campos" type="text" placeholder="ingrese su email">
+                    <label class="registro__obligatorio">Obligatorio.</label>
+                </div>
+                <br>
+                <div>
+                    <label>Email</label> <br>
+                    <input class="login__campos" type="text" placeholder="ingrese su email">
+                    <label class="registro__obligatorio">Obligatorio.</label>
+                </div>
+                <br>
+                <div>
+                    <label>Contraseña</label> <br>
+                    <input class="login__campos" type="text" placeholder="ingrese su contraseña">
+                    <label class="registro__obligatorio">Obligatorio.</label>
+                </div>
+                <br>
+                <div>
+                    <label class="registro__etiq--enf">Pais Nacimiento</label> <br>
+                    <input list="browsers" name="browser">
+                    <datalist id="browsers">
+                        <option value="Argentina">
+                        <option value="Bolivia">
+                        <option value="Brasil">
+                        <option value="Chile">
+                        <option value="Peru">
+                    </datalist> <br>
+                    <label class="registro__obligatorio">Obligatorio.</label>
+                </div>
+                <br>
+                <div>
+                    <label class="registro__etiq--enf">Genero</label> <br>
+                    <input type="radio">Femenino
+                    <input type="radio">Masculino
+                    <input type="radio">Prefiero no decirlo
+                </div>
+                <br>
+                <div>
+                    <label class="registro__etiq--enf">Hobbies</label> <br>
+                    <input type="checkbox">Guitarra
+                    <input type="checkbox">Fútbol
+                    <input type="checkbox">Tenis
+                    <input type="checkbox">Programación
+                </div>
+                <br>
+                <div>
+                    <label class="registro__etiq--enf">Deposita tu comentario</label> <br>
+                    <textarea name="" id="" cols="40" rows="10"></textarea>
+                </div>
+                <br>
+                <div>
+                    <input type="checkbox" name="" id="">
+                    Acepto los términos y condiciones.
+                </div>
+                <br>
+                <div>
+                    <label for="">Botón enviar con etiqueta input</label><br><br>
+                    <input type="button" value="Registrarme">
+                    <input type="button" value="Cancelar">
+                </div>
+                <br>
+                <div>
+                    <label for="">Botón enviar con etiqueta button</label><br><br>
+                    <button class="login__button">Registrarme</button>
+                    <button class="login__button">Cancelar</button>
+                </div>
+            </section>
+        </main>
+    </div>
+</body>
+</html>
